@@ -1,0 +1,109 @@
+*{
+    list-style: none;
+}
+header{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    display: flex;
+    padding: 0%;
+}
+ul{
+    display: flex;
+}
+li img{
+    width: 22px;
+    height: 22px;
+}
+li{
+    padding: 10px;
+}
+h1{
+    font-size: 40px;
+}
+.noticia{
+    width: 100%;
+}
+.border{
+    padding: 20px 0;
+    color: grey;
+    border-bottom: 1px solid black;
+}
+.img{
+    width: 100%;
+}
+.img ul{
+    padding: 0;
+}
+.title{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+section{
+    display: flex;
+    width: 100%;
+}
+.logo img{
+    width: 25%;
+    
+}
+.logo{
+    display: flex;
+    justify-content: end;
+}
+article{
+    width: 75%;
+}
+main img{
+    width: 100%;
+    margin: 10px 0;
+}
+.read{
+    width: 20%;
+}
+span{
+    background-color: rgb(234, 228, 228);
+    border: 1px solid grey;
+}
+aside{
+    width: 25%;
+}
+main{
+    display: flex;
+    gap: 100px;
+}
+.w100 span{
+    width: 100%;
+    display: flex;
+    padding: 20px 20px 20px 0;
+}
+footer{
+    display: flex;
+    width: 75%;
+    gap: 100px;
+}
+footer img{
+    width: 40px;
+    height: 40px;
+}
+.facebook{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.twitter{
+    background-color: #9dcddb;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.mail{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
